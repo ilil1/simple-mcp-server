@@ -16,8 +16,8 @@ The Model Context Protocol (MCP) is a standard that connects LLMs with external 
 ## Prerequisites
 
 - Python 3.11+
-- FastMCP library
-- uv
+- [FastMCP - https://github.com/jlowin/fastmcp](https://github.com/jlowin/fastmcp)
+- [uv - https://docs.astral.sh/uv/](https://docs.astral.sh/uv/)
 
 ## Installation
 
