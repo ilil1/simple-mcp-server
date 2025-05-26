@@ -130,38 +130,3 @@ if __name__ == "__main__":
 
         # Run stdio in main thread
         run_stdio_server()
-
-
-"""
-## Configuration for windsurf IDE
-```json
-    "simple-mcp": {
-      "command": "npx",
-      "args": [
-        "mcp-remote", 
-        "http://localhost:9876/", 
-        "--allow-http", 
-        "--header", 
-        "Authorization: Bearer SIMPLE_MCP_SERVER"
-      ]
-    }
-```
-
-## Configuration for Claude Desktop
-```json
-{
-  "mcpServers": {
-    "simple-mcp": {
-      "command": "uv",
-      "args": [
-        "run", 
-        "--project", "/Users/rob/Code/simple-mcp-server", 
-        "python", "/Users/rob/Code/simple-mcp-server/run_server.py", 
-        "--stdio-only"
-      ],
-      "cwd": "/Users/rob/Code/simple-mcp-server"
-    }
-  }
-}
-```
-"""
