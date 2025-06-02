@@ -26,6 +26,13 @@ dev = [
     "pytest-asyncio>=0.21.1",
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+# Simply include the single file directly
+[tool.hatch.build.targets.wheel.force-include]
+"run_server.py" = "run_server.py"
+
 [tool.black]
 line-length = 100
 target-version = ["py311"]
