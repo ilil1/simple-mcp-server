@@ -101,8 +101,7 @@ def run_http_server():
         transport="streamable-http",
         host="0.0.0.0",
         port=PORT,
-        path="/",
-        middleware=[Middleware(AuthMiddleware)],
+        path="/"
     )
 
 #
