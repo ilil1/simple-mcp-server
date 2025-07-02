@@ -105,7 +105,7 @@ def run_http_server():
         middleware=[Middleware(AuthMiddleware)],
     )
 
-
+#
 def run_stdio_server():
     """Run stdio server in main thread."""
     mcp_stdio = create_mcp_server()
