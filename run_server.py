@@ -96,12 +96,12 @@ def create_mcp_server():
 def run_http_server():
     """Run HTTP server in a separate thread."""
     mcp_http = create_mcp_server()
-    logger.info("Starting HTTP server on port 9876")
+    logger.info("Starting HTTP server on port %s", PORT)
     mcp_http.run(
         transport="streamable-http",
         host="0.0.0.0",
         port=PORT,
-        path="/"
+        path="/mcp"
     )
 
 #
