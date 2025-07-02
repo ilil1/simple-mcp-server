@@ -1,7 +1,7 @@
 # Smithery configuration file: https://smithery.ai/docs/build/project-config
 
 startCommand:
-  type: http
+  type: "http"
   commandFunction:
     # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
     |-
