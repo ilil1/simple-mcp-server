@@ -11,4 +11,4 @@ COPY pyproject.toml run_server.py uv.lock README.md ./
 RUN pip install --no-cache-dir .
 
 # Default command for stdio transport
-CMD ["python", "run_server.py", "--stdio-only"]
+CMD ["python", "run_server.py", "--http-only"]
