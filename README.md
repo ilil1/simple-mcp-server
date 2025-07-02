@@ -1,4 +1,5 @@
 # Simple MCP Server
+[![smithery badge](https://smithery.ai/badge/@ilil1/simple-mcp-server)](https://smithery.ai/server/@ilil1/simple-mcp-server)
 
 A minimal implementation of the Model Context Protocol (MCP) server using FastMCP. This example demonstrates how to create a simple MCP server that clients like Windsurf IDE and Claude can connect to.
 
